@@ -1,10 +1,12 @@
 import React from "react";
 import "./homePage.css";
 import myImage from "../../images/myImage.jpeg";
+import About from "../about/About";
 
 const HomePage = () => {
   const name = "Prachi Panwar";
   return (
+    <div className="homePage">
     <div className="my-portfolio">
       <div className="about-section" id="home">
         <h3>Hi, my name is</h3>
@@ -21,6 +23,8 @@ const HomePage = () => {
       <div className="img-section">
         <img src={myImage} alt="my image" className="my-img" />
       </div>
+    </div>
+    <About/>
     </div>
   );
 };
