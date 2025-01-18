@@ -2,6 +2,8 @@ import React from "react";
 import "./homePage.css";
 import myImage from "../../images/myImage.jpeg";
 import About from "../about/About";
+import Projects from "../projects/Projects";
+import Contact from "../contact/Contact";
 
 const HomePage = () => {
   const name = "Prachi Panwar";
@@ -25,6 +27,8 @@ const HomePage = () => {
       </div>
     </div>
     <About/>
+    <Projects/>
+    <Contact/>
     </div>
   );
 };
