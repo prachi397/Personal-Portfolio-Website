@@ -35,7 +35,7 @@ const Projects = () => {
         navigation={true}
         modules={[Pagination, Navigation]}
         breakpoints={{
-          640: {
+          0: {
             slidesPerView: 1,
             spaceBetween: 10,
           },
