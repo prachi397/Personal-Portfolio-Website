@@ -1,0 +1,62 @@
+.projects-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .projects-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .mySwiper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 65%;
+    max-width: 400px;
+    padding-bottom: 15px;
+    cursor: pointer;
+  }
+
+  
+  .project-img {
+    width: 100px;
+    height: 100px;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  
+  .project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .project-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #092c52;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: absolute;
+    top: 5px;
+    right: 65px;
+  }
+  
+  .project-link:hover {
+    color: #0056b3;
+  }
+  

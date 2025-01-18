@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    background: #f1f1fa;
 }
 .form-data{
     display: flex;

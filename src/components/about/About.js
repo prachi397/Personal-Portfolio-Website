@@ -5,7 +5,7 @@ const skills = ["React JS", "JavaScript", "Redux", "HTML/CSS", "Bootstrap", "Mat
 
 const About = () =>{
     return (
-        <div className="aboutPage">
+        <div className="aboutPage" id="about">
             <section>
                 <h3>Education : </h3>
                 <p>B.Tech in Information Technology from College of Engineering Roorkee</p>
